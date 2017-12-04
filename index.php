@@ -31,12 +31,12 @@
 			<button class="links"  onclick="window.location.href='http://www.antetech.org'">Home</button>
 			<button class="links"  onclick="window.location.href='about'">About Us</button>
 			<button class="links"  onclick="window.location.href='download'">Downloads</button>
-			&nbsp;
 		</h2>
-			&nbsp;
 	</head>
 	<body>
-	
+			<div id="particles-js"></div>
+	<script type="text/javascript" src="js/particles.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 		<div class="info">
 			<p>
 				Welcome to Ante Tech
@@ -53,8 +53,6 @@
 				Feel free to e-mail us with questions, comments, or concerns at <a href="mailto:info@antetech.org">info@antetech.org</a>
 			</address>
 		</div>
-		<div id="particles-js"></div>
-	<script type="text/javascript" src="js/particles.js"></script>
-	<script type="text/javascript" src="js/app.js"></script>
+
 	</body>
 </html>
