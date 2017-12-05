@@ -37,9 +37,13 @@
 	</head>
 	<body>
 		<div class="info">
-			<p>
-				Sorry, but no downloads are avaible at the moment, try again later
-			</p>
+		<p> You must Log in to see downloads </p>
+			<form action='login_handler.php' method='POST'>
+    <input type='text' id = 'question' name='UID' placeholder='Username' autofocus required><br><br>
+    <input type='password' id = 'question' name='pwd' placeholder='Password' required><br><br>
+    <button type='submit' required> Enter! </button>
+  </form>
+  
 		</div>	
 		<div class="footer">
 			<address>
